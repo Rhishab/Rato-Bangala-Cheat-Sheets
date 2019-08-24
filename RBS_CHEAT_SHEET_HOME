@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        /* New Update */
+        .sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+    
+    
+    .bar{
+        height: 100px;
+        width: 100%;
+        background-color: rgb(209, 99, 89);
+        font-size: 32px;
+        text-align: center;
+        padding-top: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+    }
+    .sec{
+        height:100px;
+        width: 100%;
+        background-color:  rgb(214, 153, 147);
+
+    }
+    .symbol{
+        font-size: 40px;
+        padding-top: 4px;
+        float: left;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: 60px;
+
+
+
+    }.left{
+        float: left;
+        font-size: 30px;
+
+    }
+    .mess{
+        font-size: 24px;
+        padding-top: 10px;
+        padding-left: 30px;
+        float: right;
+        padding-right: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 20px;
+
+
+
+
+    }
+    .bod{
+        background-image: url('redkeep.jpg');
+         
+    }
+    .sidenav{
+        float: left;
+        font-size: 200px;
+
+    }
+    .dropdown-menu{
+        height: 600px;
+        position: fixed;
+        background-color: rgb(160, 45, 34);
+        width: 30%;
+        height: 250px;
+        width: 300px;
+        background-color: rgba(190, 3, 3, 0.281);
+        /* FOr javascript uses Later */
+        /* display: none; */ 
+        text-decoration: none;
+        list-style: none;
+        /* padding-left: 3px; */
+        font-size: 27px;
+        /* padding-top: 10px; */
+        
+        
+
+
+    }
+       li::after{
+			content: '';
+			clear: both;
+			display: both;
+
+		 }
+		 li a:hover{
+			background-color: rgba(94, 25, 18, 0.623)
+
+
+		}
+
+		/*The magic formula    ||||||||| down|||||||||*/
+		 li a{
+	    text-decoration: none;
+	    padding: 15px 20px;
+	    color:rgb(350, 181, 175);
+	    display:block;
+	    /*font-size:20px;*/
+	  }
+    .button{
+        height: 100px;
+        padding: 0px;
+        box-decoration-break: none;
+        background-color:rgb(214, 153, 147);
+        border: none;
+        width: 100px;
+
+
+    
+
+
+    }
+    /*  Okay boostrap plays on  */
+    .secbutton{
+        height: 100px;
+        padding: 0px;
+        box-decoration-break: none;
+        background-color:rgb(214, 153, 147);
+        border: none;
+        width: 100px;
+        font-size: 40px;
+
+
+    /* }
+    .dropdown-menu{
+        height: 250px;
+        width: 300px;
+        background-color: rgba(190, 3, 3, 0.281);
+*/
+    } 
+    </style>
+    <title>Home</title>
+</head>
+<body>
+        <body class="bod">
+                <div class="bar"> Rato Bangala Cheat Sheets</div>
+                <!-- New update -->
+                <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="file:///D:/Entrepreneurship/Coding/Rato_Bangala_Cheat_Sheets0.3/The%20real%20shit/Rato_Bangala_Cheat_Sheets_Home.html">Home</a>
+                        <a href="file:///D:/Entrepreneurship/Coding/Rato_Bangala_Cheat_Sheets0.3/The%20real%20shit/Rato_Bangala_Cheat_Sheets_Syllabus.html#">Syllabus</a>
+                        <a href="file:///D:/Entrepreneurship/Coding/Rato_Bangala_Cheat_Sheets0.3/The%20real%20shit/Rato_Bangala_Cheat_Sheets_Courses.html">Courses</a>
+                        <a href="#">Cheats</a>
+                      </div>
+                      
+                      <!-- Use any element to open the sidenav -->
+                      <span onclick="openNav()" class="left">+++ 
+                            <div class="mess"> LIVE LOVE & LAUGH</div>
+                    
+                    </span>
+                      
+                      <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+                      
+                    </div>
+                    
+                 </div> 
+                 
+
+               
+               <!--            First is complete 
+                                Phase-1 done -->
+                <div class="sec"> 
+            
+                    <!-- <div class="symbol" id="sym" ><button onclick="demo1()" class="button">+++</button></div>
+                  
+                    
+                        
+                    </div> -->
+                     
+                     <!-- ALl the top part is done -->
+                     <!-- <div class="dropdown">
+                        <button class="secbutton" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          +++
+                        </button> 
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                           
+                        <li><a class="dropdown-item" href="file:///D:/Entrepreneurship/Coding/Rato_Bangala_Cheat_Sheets0.3/The%20real%20shit/Rato_Bangala_Cheat_Sheets_Home.html">Home</a></li>
+                        <li><a class="dropdown-item" href="file:///D:/Entrepreneurship/Coding/Rato_Bangala_Cheat_Sheets0.3/The%20real%20shit/Rato_Bangala_Cheat_Sheets_Syllabus.html#">Syllabus</a></li>
+                        <li> <a class="dropdown-item" href="file:///D:/Entrepreneurship/Coding/Rato_Bangala_Cheat_Sheets0.3/The%20real%20shit/Rato_Bangala_Cheat_Sheets_Courses.html">Courses</a></li>
+                        <li><a class="dropdown-item" href="">Cheats</a></li>
+                        <li> <a class="dropdown-item" href="">About ME</a></li> -->
+                        
+
+                </div>
+                
+                    <!-- Optional JavaScript -->
+                    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                  </body>
+                        <script>
+                            function openNav() {
+                                document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+                       
+
+                    
+                    
+                      
+                        </script>
+            
+            
+
+    
+    
+    
+    <script>
+    
+    
+    </script>
+    
+</body>
+</html>
